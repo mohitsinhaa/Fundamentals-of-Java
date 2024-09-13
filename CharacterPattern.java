@@ -3,9 +3,9 @@ public class CharacterPattern {
         int i, j;
         char ch = 'A';
         for (i = 1; i <= 4; i++) {
-            for (j = 1; j <= i; j++) {
-                System.out.print(ch);
-                ch++;
+            for (j = 1; j <= 4-i+1; j++) {
+                System.out.print("*");
+                
             }
             System.out.println();
         }
